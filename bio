@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bio-data</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                width: 100%;
+                height: auto;
+                padding: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .cont{
+                width: 80%;
+                position: relative;
+                height: auto;
+                border: 4px solid blue;
+                border-radius: 0px 60px 0px 0px;
+            }
+            .cont::before{
+                content: "";
+                position: absolute;
+                width: 100%;
+                opacity: .4;
+                height: 100%;
+                z-index: -999;
+                background-image: url(DSC_9039) center;
+                background-size: 100% 100%;
+            }
+
+            #hed{
+                font-size: 40px;
+                color: blue;
+                font-weight: 600;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-style: normal;
+                text-align: center;
+
+
+            }
+            table{
+                width: 100%;
+                margin: 40px;
+            }
+            .branchhed{
+                font-size: 33px;
+                color: rgb(211, 22, 201);
+                font-weight: 600;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-style: oblique;
+                padding-left: 100px;
+                
+
+            }
+            .content{
+                font-size: 30px;
+                font-weight: 600;
+                font-weight: 500;
+                font-style: normal;
+                padding-left: 50px;
+                
+            }
+            .value{
+                font-size: 25px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .image{
+                position: absolute;
+                width: 250px;
+                height: 250px;
+                right: 30px;
+                background: url(DSC_9039) center;
+                background-size: cover;
+
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="cont">
+            <div class="image"></div>
+            <table  cellspacing="20px">
+                <tr>
+                    <td colspan="2" id="hed"> Bio-Data <br>________<br></td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="branchhed"><br>Personal Details :--<br></td>
+                </tr>
+                <tr class="content">
+                    <td><br>Name</td>
+                    <td class="value"> :- Anita</td>
+
+                </tr>
+                <tr class="content">
+                    <td>Qualification</td>
+                    <td class="value"> :- Third year of BSc.CSIT <br>(----- 1 ----)<br>(----- 1 ----)</td>
+                </tr>
+                <tr>
+                   <tr class="content">
+                       <td>Date of Birth</td>
+                       <td class="value"> :-04/07/2000 </td>
+                   </tr> 
+                   <tr class="content">
+                       <td>Height</td>
+                       <td class="value"> :- 5.2</td>
+                   </tr>
+                   <tr class="content">
+                       <td>Color</td>
+                       <td class="value">:- Fair</td>
+        
+                   </tr>
+                   <tr class="content">
+                   <td>Blood Group</td>
+                   <td class="value">:- A+</td>
+
+                   </tr>
+                   <tr class="content">
+                    <td>Hobbies</td>
+                    <td class="value">:- Exploring,Web design,Hiking,Cooking</td>
+                    </tr>
+            
+            </table>
+            <table cellspacing="20px">
+                <tr>
+                    <td colspan="2" class="branchhed"> Contact Details :-</td>
+                </tr>
+                <tr class="content">
+                    <td>Address</td>
+                    <td class="value"> :- Pokhara-25 </td>
+                </tr>
+                <tr class="content">
+                    <td>Mobile no</td>
+                    <td class="value"> :- 9827145036 </td>
+                </tr>
+                <tr class="content">
+                    <td>Email address</td>
+                    <td class="value"> :- lamichhaneanita105@gmail.com</td>
+                </tr>
+            </table>
+            
+            
+        </div>
+    </body>
+</html>
